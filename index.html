@@ -19,6 +19,9 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -27,7 +30,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="header">
+      <div class="header flex">
         <div>
           <h3>Notifications</h3>
           <span>3</span>
@@ -36,78 +39,85 @@
         <div>Mark all as read</div>
       </div>
       <div class="cards">
-        <div class="card">
+        <div class="card flex">
           <img src="./assets/images/avatar-mark-webber.webp" alt="" />
           <div class="feed">
             <span class="follower">Mark Webber</span>
             <span class="follower_action">reacted to your recent post</span>
             <span class="post">My first tournament today!</span>
-            <span class="marker">*</span>
+            <span class="marker">&#x2022;</span>
+            <div class="time">1m ago</div>
           </div>
-          <div class="time">1m ago</div>
+          
         </div>
-        <div class="card">
+        <div class="card flex">
           <img src="./assets/images/avatar-angela-gray.webp" alt="" />
           <div class="feed">
-            <span class="user"> Angela Gray</span>
+            <span class="follower"> Angela Gray</span>
             <span class="follower_action">followed you</span>
             <span class="post"></span>
-            <span class="marker">*</span>
+            <span class="marker">&#x2022;</span>
+            <div class="time">5m ago</div>
           </div>
-          <div class="time">5m ago</div>
+          
         </div>
-        <div class="card">
+        <div class="card flex">
           <img src="./assets/images/avatar-jacob-thompson.webp" alt="" />
           <div class="feed">
             <span class="follower"> Jacob Thompson</span>
             <span class="follower_action">has joined your group</span>
-            <span class="post">Chess Club</span>
-            <span class="marker"></span>
+            <span class="post chess">Chess Club</span>
+            <span class="marker">&#x2022;</span>
+            <div class="time">1 day ago</div>
           </div>
-          <div class="time">1 day ago</div>
+         
         </div>
-        <div class="card">
+        <div class="card flex">
           <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="" />
           <div class="feed">
             <span class="follower"> Rizky Hasanuddin</span>
             <span class="follower_action">sent you a private message</span>
             <span class="post"></span>
             <span class="marker"></span>
+            <div class="time">5 days ago</div>
           </div>
-          <div class="time">5 days ago</div>
+         
           <div>Hello, thanks for setting up the Chess
             Club. I've been a member for a few weeks now and I'm already having lots of
             fun and improving my game.</div>
         </div>
-        <div class="card">
+        <div class="card flex">
           <img src="./assets/images/avatar-kimberly-smith.webp" alt="" />
           <div class="feed">
             <span class="follower"> Kimberly Smith</span>
             <span class="follower_action">commented on your picture</span>
             <span class="post"></span>
             <span class="marker"></span>
+            <div class="time"> 1 week ago</div>
           </div>
-          <div class="time"> 1 week ago</div>
+         
         </div>
-        <div class="card">
+        <div class="card flex">
           <img src="./assets/images/avatar-nathan-peterson.webp" alt="" />
           <div class="feed">
             <span class="follower"> Nathan Peterson</span>
             <span class="follower_action">reacted to your recent post</span>
             <span class="post">5 end-game strategies to increase your win rate</span>
             <span class="marker"></span>
+            <div class="time"> 2 weeks ago</div>
           </div>
-          <div class="time"> 2 weeks ago</div>
+          
         </div>
-        <div class="card">
-          <img src="./assets/images/avatar-nathan-peterson.webp" alt="" />
+        <div class="card flex">
+          <img src="./assets/images/avatar-anna-kim.webp" alt="" />
           <div class="feed">
             <span class="follower">Anna Kim</span>
             <span class="follower_action">left the group</span>
-            <span class="post">5 end-game strategies to increase your win rate</span>
-            <span class="marker">Chess Club 2</span>
+            <span class="post chess">Chess Club</span>
+            <span class="marker"></span>
+            <div class="time"> 2 weeks ago</div>
           </div>
-          <div class="time"> 2 weeks ago</div>
+          
         </div>
     </div>
 
