@@ -73,14 +73,18 @@ img {
 
 .header > *:last-child {
   color: var(--grayish-blue);
+  cursor: pointer;
 }
 
 .card {
   padding: 0.5rem;
-  background: var(--light-grayish-blue-1);
   margin: 7px 0;
   border-radius: 6px;
   gap: 10px;
+}
+
+.read {
+  background: var(--light-grayish-blue-1);
 }
 
 .card img {
