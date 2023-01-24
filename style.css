@@ -80,7 +80,6 @@ img {
   background: var(--light-grayish-blue-1);
   margin: 7px 0;
   border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   gap: 10px;
 }
 
@@ -123,4 +122,13 @@ img {
 .feed .time {
   color: var(--grayish-blue);
   margin-top: 3px;
+}
+
+.message {
+  border: 1px solid var(--grayish-blue);
+  border-radius: 3px;
+  width: 85%;
+  margin-left: auto;
+  padding: 0.8rem;
+  color: var(--grayish-blue);
 }
