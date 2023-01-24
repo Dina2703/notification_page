@@ -100,6 +100,7 @@ img {
 
 .feed .follower {
   font-weight: 800;
+  cursor: pointer;
 }
 
 .feed .follower_action {
@@ -109,13 +110,11 @@ img {
 
 .feed .post {
   color: var(--dark-grayish-blue);
+  cursor: pointer;
 }
 
 .feed .marker {
   color: red;
-  position: absolute;
-  top: -1px;
-  margin-left: 3px;
 }
 
 .feed .chess {
@@ -131,8 +130,15 @@ img {
 .message {
   border: 1px solid var(--grayish-blue);
   border-radius: 3px;
-  width: 85%;
+  width: 88%;
   margin-left: auto;
-  padding: 0.8rem;
+  padding: 1rem 1.3rem;
   color: var(--grayish-blue);
+  cursor: pointer;
+}
+
+@media (max-width: 380px) {
+  body {
+    font-size: 12px;
+  }
 }
