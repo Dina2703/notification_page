@@ -15,10 +15,53 @@
 body {
   font-size: 15px;
   font-family: "Plus Jakarta Sans", sans-serif;
+  width: 100vw;
+  background-color: whitesmoke;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  max-width: 700px;
+  margin: 2.5rem auto;
+  padding: 1rem 1.5rem;
+  border: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin: 10px 0;
+}
+
+.header h3 {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.header > *:first-child {
+  flex: 1;
+  position: relative;
+}
+
+.header span {
+  font-size: 13px;
+  padding: 1px 5px;
+  background-color: var(--primary-blue);
+  border-radius: 5px;
+  color: #fff;
+  position: absolute;
+  bottom: 3px;
+}
+
+.header > *:last-child {
+  color: var(--grayish-blue);
 }
